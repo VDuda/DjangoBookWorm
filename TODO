@@ -1,7 +1,5 @@
 
- - Adjust model so that items are assocaited with different lists
  - Add unique URLS for each list
- - Add a URL for creaing a new list via POST
  - Add URLs for adding a new item to an existing list via POST
  - Diplay multiple items in the table
  - Support more than one list!
