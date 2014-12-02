@@ -20,11 +20,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'y#b84n*76ydqb^t%@*8$v+u%p_b_e*rm63(28%d_-2&swqw6dy'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-TEMPLATE_DEBUG = True
+TEMPLATE_DEBUG = DEBUG
 
-ALLOWED_HOSTS = []
+# Needed when DEBUG=False
+ALLOWED_HOSTS = ['superlists-staging.bestgymdrinks.com']
 
 
 # Application definition
